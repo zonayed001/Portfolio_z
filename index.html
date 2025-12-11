@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md.Zonayed Ahmed - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER / NAVBAR -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h2>Zonayed.dev</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#projects">Projects</a></li>
+               <!--<li><a href="#eca">Activities</a></li> -->
+                <li><a href="#gallery">Gallery</a></li>
+                <!--<li><a href="#achievements">Achievements</a></li>-->
+                <li><a href="#video-resume">Video</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm <span class="highlight">Md.Zonayed Ahmed</span></h1>
+            <p class="subtitle">Video Editor | Front End Developer | Cyber Security Enthusiast</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="#projects" class="btn btn-secondary">View Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV SECTION -->
+    <section id="cv">
+        <div class="container">
+            <h2 class="section-title">Curriculum Vitae</h2>
+            <div class="cv-content">
+                <div class="cv-actions">
+                    <a href="CV ZONAYED.pdf" download class="btn btn-primary">
+                        <span>📥</span> Download CV
+                    </a>
+                </div>
+                <div class="cv-viewer">
+                    <iframe 
+                        src="CV ZONAYED.pdf" 
+                        title="CV Preview"
+                        width="100%" 
+                        height="800px">
+                    </iframe>
+                    <p class="cv-fallback">
+                        Can't view the CV? <a href="path/to/your/cv.pdf" download>Download it here</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- PROJECT 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Research.png" alt="Project 1">
+                        <div class="project-overlay">
+                            <a href="https://drive.google.com/drive/folders/1FF3Tub5LEV2HCtd4ViYwVG5NZ63x6bIv?usp=sharing" target="_blank" class="project-link">
+                                View on Know more →
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Inside Gen Z's Mind</h3>
+                        <p>Inside Gen Z's Mind: Mental Health in Bangladesh's Young Generation.</p>
+                        <div class="project-tags">
+                            <!-- <span class="tag">JavaScript</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Second.jpg" alt="Project 2">
+                        <div class="project-overlay">
+                            <a href="https://drive.google.com/drive/folders/1XrmUJAj1EhiKtiY2vD0wQO6Qoml7MUVL?usp=sharing" target="_blank" class="project-link">
+                                View to know more  →
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>The Search for Purpose</h3>
+                        <p>The Search for Purpose: Exploring Life Meaning, Values, and Future Orientation among Bangladesh's Young Generation.</p>
+                        <div class="project-tags">
+                            <!-- <span class="tag">React</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">Firebase</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT 3 -->
+                <!-- TODO: Replace image, title, description, and GitHub link -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="elite.jpg" alt="Project 3">
+                        <div class="project-overlay">
+                            <a href="https://www.youtube.com/watch?v=uczfqLD3aqM" target="_blank" class="project-link">
+                                View to see How to Work Elite ?? 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>ELITE-Education Platform</h3>
+                        <p>Education Platform: Revolutionizing the education platform.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Django</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TODO: Add more project cards as needed -->
+            </div>
+        </div>
+    </section>
+
+<!-- 
+    <section id="eca">
+        <div class="container">
+            <h2 class="section-title">Extra-Curricular Activities</h2>
+            <div class="eca-grid">
+     
+                <div class="eca-card">
+                    <div class="eca-icon">🏆</div>
+                    <h3>Video Editor</h3>
+                    <p class="eca-role">Your Role | Year</p>
+                    <p>Description of your participation, responsibilities, and key achievements in this activity.</p>
+                </div>
+
+        
+                <div class="eca-card">
+                    <div class="eca-icon">🎯</div>
+                    <h3>Activity Title 2</h3>
+                    <p class="eca-role">Your Role | Year</p>
+                    <p>Description of your participation, responsibilities, and key achievements in this activity.</p>
+                </div>
+
+   
+                <div class="eca-card">
+                    <div class="eca-icon">🚀</div>
+                    <h3>Activity Title 3</h3>
+                    <p class="eca-role">Your Role | Year</p>
+                    <p>Description of your participation, responsibilities, and key achievements in this activity.</p>
+                </div>
+
+
+                <div class="eca-card">
+                    <div class="eca-icon">💡</div>
+                    <h3>Activity Title 4</h3>
+                    <p class="eca-role">Your Role | Year</p>
+                    <p>Description of your participation, responsibilities, and key achievements in this activity.</p>
+                </div>
+
+            </div>
+        </div>
+    </section> -->
+
+    <!-- IMAGE GALLERY SECTION -->
+    <section id="gallery">
+        <div class="container">
+            <h2 class="section-title">University Memories</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="University life1.jpg" alt="University Memory 1">
+                    <div class="gallery-overlay">
+                        <p>Caption for this memory</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="University life2.jpg" alt="University Memory 2">
+                    <div class="gallery-overlay">
+                        <p>Caption for this memory</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="University life3.jpg" alt="University Memory 3">
+                    <div class="gallery-overlay">
+                        <p>Caption for this memory</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="University life4.jpg" alt="University Memory 4">
+                    <div class="gallery-overlay">
+                        <p>Caption for this memory</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="University life5.jpg" alt="University Memory 5">
+                    <div class="gallery-overlay">
+                        <p>Caption for this memory</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="University life6.jpg" alt="University Memory 6">
+                    <div class="gallery-overlay">
+                        <p>Caption for this memory</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements & Awards</h2>
+            <div class="achievements-grid">
+   
+                <div class="achievement-card">
+                    <div class="achievement-icon">🥇</div>
+                    <h3>Achievement Title 1</h3>
+                    <p class="achievement-date">Month Year</p>
+                    <p>Description of the achievement, competition, or award and its significance.</p>
+                </div>
+
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">🏅</div>
+                    <h3>Achievement Title 2</h3>
+                    <p class="achievement-date">Month Year</p>
+                    <p>Description of the achievement, competition, or award and its significance.</p>
+                </div>
+
+      
+                <div class="achievement-card">
+                    <div class="achievement-icon">⭐</div>
+                    <h3>Achievement Title 3</h3>
+                    <p class="achievement-date">Month Year</p>
+                    <p>Description of the achievement, competition, or award and its significance.</p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">🎖️</div>
+                    <h3>Achievement Title 4</h3>
+                    <p class="achievement-date">Month Year</p>
+                    <p>Description of the achievement, competition, or award and its significance.</p>
+                </div>
+
+    
+            </div>
+        </div>
+    </section> -->
+
+    <!-- VIDEO RESUME SECTION -->
+    <section id="video-resume">
+        <div class="container">
+            <h2 class="section-title">Video Resume</h2>
+            <div class="video-content">
+                <p>Get to know me better through my video introduction!</p>
+                <button id="openVideoBtn" class="btn btn-primary btn-large">
+                    ▶️ Click to See Video Resume
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- VIDEO MODAL -->
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="video-wrapper">
+                <!-- Video will be loaded here by JavaScript -->
+                <div id="videoPlayer"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>Feel free to reach out for collaborations, opportunities, or just a chat!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="icon">📧</span>
+                            <span>ahmed15-6383@s.diu.edu.bd</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">📱</span>
+                            <span>+8801306859287</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">📍</span>
+                            <span>Dhaka, Bangladesh</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/zonayed001" target="_blank">GitHub</a>
+                        <a href="https://www.linkedin.com/in/md-zonayed-ahmed-582768339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+                        <a href="https://sites.google.com/s.diu.edu.bd/zonayed01posterpresentation/home" target="_blank">Google Site</a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                    <div id="formStatus" class="form-status"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div class="container">
+            <p>&copy; 2025 Md.Zonayed Ahmed. All rights reserved.</p>
+            <p>Built with ❤️ and lots of ☕</p>
+        </div>
+    </footer>
+
+    <!-- TODO: Load EmailJS SDK (required for contact form) -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
